@@ -23,11 +23,11 @@ $("#shoot").click(function() {
      } else if (userChoice=== "rock" && computerChoice === "paper"){
          winner="Computer Wins!";
      } else if (userChoice=== "rock" && computerChoice === "scissors"){
-        winner="User Wins!";
+        winner="You Won!";
     }
      
      if (userChoice=== "paper" && computerChoice === "rock" ){
-         winner = "User Wins!";
+         winner = "You Won!";
      } else if (userChoice=== "paper" && computerChoice === "paper"){
          winner="Uh-oh, its a tie!";
      } else if (userChoice=== "paper" && computerChoice === "scissors"){
@@ -38,7 +38,7 @@ $("#shoot").click(function() {
     if (userChoice=== "scissors" && computerChoice === "rock" ){
          winner = "Computer Wins!";
      } else if (userChoice=== "scissors" && computerChoice === "paper"){
-         winner="User Wins!";
+         winner="You Won!";
      } else if (userChoice=== "scissors" && computerChoice === "scissors"){
         winner="Uh-oh, its a tie!";
         }
